@@ -1,11 +1,11 @@
 /*
-📌 Problem 5: Check if a number is present in an array
+ Problem 5: Check if a number is present in an array
 
-👉 Statement:
+ Statement:
 User se ek array input lena hai aur phir ek number dena hai.
 Check karna hai ki wo number array me present hai ya nahi.
 
-⚡ Example:
+ Example:
 Input:
 n = 5
 arr = [10, 20, 30, 40, 50]
@@ -30,14 +30,14 @@ public class Problem_5 {
         checkNum(arr, num1);                 // Check number in array
     }
     
-    // 📌 Step 1: Take size of array from user
+    //  Step 1: Take size of array from user
     public static int getSize(Scanner sc) {
         System.out.print("Enter the size of array: ");
         int s = sc.nextInt();
         return s;
     }
 
-    // 📌 Step 2: Take array elements from user
+    //  Step 2: Take array elements from user
     public static int[] getInput(int size, Scanner sc) {
         int[] arr1 = new int[size]; // new array created
 
@@ -48,7 +48,7 @@ public class Problem_5 {
         return arr1; // return filled array
     }
 
-    // 📌 Method: Check if number is present
+    //  Method: Check if number is present
     public static void checkNum(int[] arr, int num) {
         int count = 0;
 

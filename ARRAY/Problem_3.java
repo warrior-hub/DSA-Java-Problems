@@ -1,12 +1,12 @@
 /*
-📌 Problem 3: Find Sum and Average of Array Elements
+ Problem 3: Find Sum and Average of Array Elements
 
-👉 Statement:
+ Statement:
 User se ek array lena hai aur usme se:
 1. Sabhi elements ka sum nikalna hai
 2. Sabhi elements ka average nikalna hai
 
-📝 Example:
+ Example:
 Input:
 Enter the size of array:
 5
@@ -32,14 +32,14 @@ public class Problem_3 {
         sc.close();                          // Scanner closed
     }
 
-    // 📌 Method 1: Take size of array from user
+    //  Method 1: Take size of array from user
     public static int getSize(Scanner sc) {
         System.out.println("Enter the size of array: ");
         int s = sc.nextInt();
         return s;
     }
 
-    // 📌 Method 2: Take array elements from user
+    //  Method 2: Take array elements from user
     public static int[] getInput(int size, Scanner sc) {
         int[] arr1 = new int[size]; // new array created
 
@@ -50,7 +50,7 @@ public class Problem_3 {
         return arr1; // return filled array
     }
 
-    // 📌 Method 3: Find sum and average of array elements
+    //  Method 3: Find sum and average of array elements
     public static void findSumAvg(int[] arr) {
         int sum = 0;
         for (var i = 0; i < arr.length; i++) {

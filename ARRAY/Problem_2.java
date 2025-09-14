@@ -1,10 +1,10 @@
 /*
-📌 Problem 2: Find Minimum and Maximum element in an Array
+ Problem 2: Find Minimum and Maximum element in an Array
 
-👉 Statement:
+ Statement:
 User se ek array lena hai aur usme se minimum aur maximum number nikalna hai.
 
-📝 Example:
+ Example:
 Input:
 Enter the size of array:
 5
@@ -30,14 +30,14 @@ public class Problem_2 {
         sc.close();                          // Scanner close kiya
     }
 
-    // 📌 Method 1: User se array ka size lena
+    //  Method 1: User se array ka size lena
     public static int getSize(Scanner sc) {
         System.out.println("Enter the size of array: ");
         int s = sc.nextInt();
         return s;
     }
 
-    // 📌 Method 2: User se array ke elements lena
+    //  Method 2: User se array ke elements lena
     public static int[] getInput(int size, Scanner sc) {
         int[] arr1 = new int[size]; // naya array banaya
 
@@ -48,7 +48,7 @@ public class Problem_2 {
         return arr1; // filled array return kar diya
     }
 
-    // 📌 Method 3: Array me se Min aur Max number find karna
+    //  Method 3: Array me se Min aur Max number find karna
     public static void findMinMax(int[] arr) {
         int min = arr[0]; // assume first element is min
         int max = arr[0]; // assume first element is max
