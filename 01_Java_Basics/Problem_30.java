@@ -17,7 +17,7 @@ public class Problem_30 {
         System.out.println("This program will perform Right Shift operation.");
 
         // Take integer input and shift value
-        System.out.println("Enter a number: ");
+        System.out.print("Enter a number: ");
         int num = sc.nextInt();
         System.out.println("Enter number of positions to shift right: ");
         int shift = sc.nextInt();
